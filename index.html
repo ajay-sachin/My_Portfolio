@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Ajay Vigneshwaran | Data Analyst Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+:root{--bg:#0f172a;--card:rgba(255,255,255,.08);--text:#fff;--accent:#38bdf8}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif}
+html{scroll-behavior:smooth}
+body{background:linear-gradient(135deg,#0f172a,#1e293b);color:var(--text)}
+nav{position:fixed;top:0;width:100%;padding:15px 6%;display:flex;justify-content:space-between;background:#334155;backdrop-filter:blur(10px);z-index:999}
+nav a{color:#fff;text-decoration:none;margin-left:18px}
+section{padding:90px 8%}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:space-between;gap:40px}
+.hero img{width:320px;height:320px;border-radius:50%;object-fit:cover;border:5px solid var(--accent)}
+h1{font-size:3.5rem} .accent{color:var(--accent)}
+.card{background:var(--card);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.15);padding:24px;border-radius:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.btn{display:inline-block;padding:12px 22px;background:var(--accent);color:#000;text-decoration:none;border-radius:30px;font-weight:bold;margin:8px 8px 0 0}
+.btn{
+    text-decoration:none;
+    display:inline-block;
+    padding:14px 25px;
+    border-radius:30px;
+    font-weight:bold;
+    margin-right:15px;
+}
+
+.btn-primary{
+    background:white;
+    color:#0d6efd;
+}
+
+.btn-secondary{
+    border:2px solid white;
+    color:white;
+}
+.timeline{border-left:3px solid var(--accent);padding-left:20px}
+section{
+    padding:80px 8%;
+}
+
+
+
+.section-title{
+    font-size:36px;
+    color:var(--primary);
+    margin-bottom:30px;
+    text-align:center;
+}
+.card{
+    background:#334155;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+.skill{margin:12px 0}.progress{background:#334155;border-radius:20px;overflow:hidden}.bar{background:var(--accent);padding:8px;color:#000;font-weight:bold}
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+.skill-card{
+    background:#334155;
+    padding:25px;
+    text-align:center;
+    border-radius:12px;
+    font-weight:600;
+
+    transition:.4s;
+    box-shadow:0 3px 15px rgba(0,0,0,.08);
+}
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+.project-card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 3px 15px rgba(0,0,0,.08);
+
+    transition:.4s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+}
+
+.project-card h3{
+    color:var(--primary);
+    margin-bottom:15px;
+}
+
+
+.skill-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 30px rgba(13,110,253,.2);
+}
+form{
+    max-width:700px;
+    margin:auto;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+button{
+    background:#0d6efd;
+    color:white;
+    border:none;
+    padding:14px 30px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.gallery img{width:100%;border-radius:12px}
+.float{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;text-decoration:none}
+footer{text-align:center;padding:25px}
+@media(max-width:768px){.hero{flex-direction:column-reverse;text-align:center}h1{font-size:2.3rem}}
+</style>
+</head>
+<body>
+<nav>
+<div><b>Portfolio</b></div>
+<div>
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#skills">Skills</a>
+<a href="#dashboards">Dashboards</a>
+<a href="#events">Events</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<div>
+<h1><span class="accent">Ajay Vigneshwaran</span></h1>
+<h2 id="typing">Data Analyst</h2>
+<p style="margin-top:15px">Results-driven Data Analyst with 3+ years of experience in Python, Data Science, Machine Learning, Excel, SQL and MLOps. Experienced corporate trainer who has trained 280+ professionals across academic, government and corporate sectors.</p>
+<a class="btn" href="Ajay_Resume.pdf" download="Ajay_Vigneshwaran_Resume.pdf">Download Resume</a>
+<a class="btn" href="https://www.linkedin.com/in/ajay-vigneshwaran-aa1879355">LinkedIn</a>
+<a class="btn" href="https://github.com/ajay-sachin">GitHub</a>
+</div>
+<div><img src="profile.jpg"></div>
+</section>
+
+<section id="Highlights">
+<h2 class="section-title"><span class="accent">Professional Highlights</span></h2><br>
+<div class="grid">
+<div class="card"><h1>3+</h1><p>Years Experience</p></div>
+<div class="card"><h1>280+</h1><p>Professionals Trained</p></div>
+<div class="card"><h1>10+</h1><p>Projects</p></div>
+<div class="card"><h1>10K+</h1><p>Data Analyzed</p></div>
+</div>
+</section>
+
+<section id="about">
+
+<h2 class="section-title"><span class="accent">
+About Me</span>
+</h2>
+
+<div class="card">
+<ul>
+<li>
+I am a results-driven Data Analyst with 3+ years of professional experience in data analytics, data science, and machine learning. My core competencies include Python, Data Science, Machine Learning, Excel, and MLOps, enabling me to transform complex data into actionable business insights and scalable solutions.
+</li>
+<li>
+In addition to my analytical expertise, I have extensive experience in corporate training, successfully delivering training programs on MLOps, Python, Excel, and various emerging technologies to working professionals. My passion for knowledge sharing and continuous learning allows me to bridge the gap between technical concepts and practical business applications.
+</li>
+<li>
+As a Computer Science Engineering graduate, I possess a strong foundation in software development, data analytics, and problem-solving. I am a fast learner who quickly adapts to new technologies, tools, and industry trends, enabling me to contribute effectively in dynamic and technology-driven environments. I am committed to leveraging data, automation, and innovation to drive organizational growth and operational excellence.
+</li>
+</ul>
+</div>
+
+</section>
+
+<section id="experience">
+<h2 class="section-title"><span class="accent">Experience</span></h2><br>
+<div class="card exp-card">
+
+<h3>
+Senior Application Engineer
+(Product Specialist - IT)
+</h3>
+
+<h4>
+CADD Centre Training Services,
+Chennai | 2023 - Present
+</h4>
+
+<ul>
+<li>Trained and certified 200+ CPWD Professionals in MS Office Tools.</li>
+<li>Developed a curriculum and courseware in Data Analytics and Python for trainers and students.</li>
+<li>Trained 80+ Corporate professionals on MLOPs and AWS for Tata Motors, Pune.</li>
+<li>Providing training for corporates and colleges on Python and Data analytics.</li>
+<li>Ensuring training quality through Facilitator Certification Program.</li>
+<li>Conducted workshop on Information Technology in Government College, Jolarpet.</li>
+<li>Demonstrated Artificial Intelligence in Excel program at Madras Chamber of Commerce and Industry(MCCI), Chennai.</li>
+</ul>
+
+</div><br>
+<div class="card exp-card">
+
+<h3>
+Associate Data Scientist
+</h3>
+
+<h4>
+Skoruz Technologies,
+Bangalore | 2022 - 2023
+</h4>
+
+<ul>
+<li>Implemented Bank Statement Analysis using 500+ statements and built predictive models.</li>
+<li>Performed data cleaning for 1200+ customers.</li>
+<li>Generated machine learning models to identify helmets with 80% accuracy for road safety applications.</li>
+<li>Provided technical support for database structures.</li>
+<li>Created explanatory models for stakeholders to identify patterns and trends.</li>
+<li>Managed datasets with 10K observations.</li>
+</ul>
+
+</div>
+
+</div>
+</section>
+
+<section id="skills">
+
+<h2 class="section-title"><span class="accent">
+Skills</span>
+</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">Data Cleaning</div>
+<div class="skill-card">Data Modelling</div>
+<div class="skill-card">MLOPS</div>
+<div class="skill-card">Machine Learning</div>
+<div class="skill-card">Predictive Analysis</div>
+<div class="skill-card">Exploratory Data Analysis</div>
+<div class="skill-card">Statistics</div>
+<div class="skill-card">Data Visualization</div>
+
+<div class="skill-card">Python</div>
+<div class="skill-card">MySQL</div>
+<div class="skill-card">PostgreSQL</div>
+<div class="skill-card">MS Excel</div>
+<div class="skill-card">Tableau</div>
+
+<div class="skill-card">Numpy</div>
+<div class="skill-card">Pandas</div>
+<div class="skill-card">Scikit-Learn</div>
+<div class="skill-card">Matplotlib</div>
+<div class="skill-card">Seaborn</div>
+<div class="skill-card">TensorFlow</div>
+<div class="skill-card">PyTorch</div>
+
+</div>
+</section>
+
+<section id="dashboards">
+<h2 class="section-title"><span class="accent">Dashboard Showcase</span></h2><br>
+<div class="grid gallery">
+<div class="card"><img src="Excel_Dashboard.png"><h3>Excel Dashboard</h3></div>
+<div class="card"><img src="Analysis_Dashboard.png"><h3>Analysis Insights</h3></div>
+</div>
+</section>
+
+<section id="events">
+<h2 class="section-title"><span class="accent">Events Conducted</span></h2><br>
+<div class="grid gallery">
+<div class="card"><img src="IDC_1.jpg"><h3>Training of International Design Competition</h3></div>
+<div class="card"><img src="IDC_2.jpeg"><h3>Jury of International Design Competition</h3></div>
+<div class="card"><img src="IDC_4.jpeg"><h3>Winner of International Design Competition</h3></div>
+<div class="card"><img src="IDC_5.jpeg"><h3>International Design Competition Team</h3></div>
+<div class="card"><img src="MCCI_Advanced_Excel_with_AI.jpg"><h3>Training in MCCI</h3></div>
+<div class="card"><img src="CPWD_Office_Automation_3.jpg"><h3>Training in CPWD</h3></div>
+<div class="card"><img src="CPWD_Office_Automation_2.jpg"><h3>Participants in CPWD Training</h3></div>
+</div>
+</section>
+
+<section id="Certifications">
+
+<h3 class="section-title"><span class="accent">Certifications</span></h3>
+
+
+</div>
+<div class="card exp-card"><b>Python for Machine Learning</b></div>
+<div class="card exp-card"><b>Google Data Analytics</b></div>
+<div class="card exp-card"><b>Data Analysis using Python</b></div>
+<div class="card exp-card"><b>Python for Data Science</b></div>
+
+</section>
+
+
+<section id="contact">
+
+<h2 class="section-title"><span class="accent">
+Contact Me</span>
+</h2>
+
+<div class="card">
+
+<p><strong>Email:</strong> ajaysachin478@gmail.com</p>
+<p><strong>Location:</strong> Chennai, Tamil Nadu</p>
+
+<br>
+
+<form action="https://formsubmit.co/ajaysachin478@gmail.com"
+method="POST">
+
+<input type="text"
+name="name"
+placeholder="Your Name"
+required>
+
+<input type="email"
+name="email"
+placeholder="Your Email"
+required>
+
+<textarea
+name="message"
+rows="5"
+placeholder="Your Message"
+required></textarea>
+
+<button type="submit">
+Send Message
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+
+<p>
+© 2026 Ajay Vigneshwaran |
+Data Analyst Portfolio
+</p>
+
+</footer>
+
+<a class="float" href="https://wa.me/919092480418"><i class="fab fa-whatsapp"></i></a>
+
+<script>
+const roles=["Data Analyst","Data Scientist","MLOps Engineer","Corporate Trainer"];
+let i=0;
+setInterval(()=>{document.getElementById("typing").innerText=roles[i++%roles.length]},2000);
+</script>
+</body>
+</html>
