@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ajay-sachin.github.io/My_Portfolio/sitemap.xml
